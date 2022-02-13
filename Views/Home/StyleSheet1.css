@@ -1,0 +1,21 @@
+﻿/*Tag selector*/
+body {
+    color: orangered;
+    font-family: Algerian;
+}
+/*class Selector*/
+.text {
+    border:
+
+{
+    double 2px solid blue;
+}
+
+}
+/*Id Selector*/
+#btn {
+    color: darkblue;
+    background-color: deepskyblue;
+    align-content: center;
+    border-radius: 5px;
+}

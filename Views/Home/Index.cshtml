@@ -1,0 +1,64 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    @*Internal Css*@
+    <style>
+        /*Tag selector*/ 
+        label {
+            color: darkblue;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        /*class Selector*/ 
+        .text{
+            border: {double 2px solid blue;}
+        }
+        /*Id Selector*/ 
+        #btn{
+            color: darkblue;
+            background-color: deepskyblue;
+            align-content: center;
+            border-radius: 5px;
+        }
+    </style>
+
+    @*External Css or External Style Sheet*@
+    <link href="~/Views/Home/StyleSheet1.css" rel="stylesheet" />
+</head>
+<body>
+
+    @*This is an inline Css*@
+    <div style="color: aquamarine; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">
+
+        <label >Username : </label>
+        <input type="text" placeholder="username" class="text"/>
+    </div>
+
+    <div>
+        <label>Password : </label>
+        <input type="password" placeholder="3 attempts are allowed" class="text"/>
+    </div>
+
+    <input type="submit" name="signin" id="btn"/>
+
+
+</body>
+</html>
+
+    @*Use 3 types of CSS
+        Inline
+        Internal
+        External
+
+        ------------------------------
+
+        Use 3 selectors in internal and external CSS
+        tag
+        id
+        class*@
